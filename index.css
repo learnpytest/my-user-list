@@ -1,0 +1,94 @@
+body{
+  background-color: #fff3ec; 
+}
+.my-header {
+  height: 40vh;
+  background: url("https://images.unsplash.com/photo-1466500419182-8602dc906b51?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTYxfHxzdW5zaGluZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+[class*="card-img-top"] {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+.row > [class*="cards"] {
+  background-color:#55423d;
+  font-family: "Heebo";
+  text-align: center;
+  margin: 40px;
+  padding: 30px 20px;
+  line-height: 0.7em;
+  letter-spacing: 0.1em;
+  overflow: hidden;
+  box-shadow: 0 0 2em -1em black;
+  border-radius: 10%;
+}
+.row > [class*="cards"]:hover {
+  transform: scale(1.05);
+}
+
+/* 新增 */
+.navbar {
+  width: 100%;
+  z-index: 9999;
+}
+.fixed-nav #nav-bar-content {
+  position: fixed;
+  box-shadow: 0 5px rgba(0,0,0,0.1);
+  left: 0;
+  top: 0%;
+
+}
+
+.navbar-brand {
+  max-width: 0%;
+  overflow: hidden;
+  transition: all .5s;
+}
+
+.fixed-nav .navbar-brand {
+  max-width: 150px;
+  color: rgb(46, 45, 45);
+}
+
+h1 {
+  font-size: 7vw;
+  text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
+}
+
+#search-input{
+  border-radius:14px;
+  background-color:#fffffe;
+  
+}
+#search-submit {
+  width:25px;height:25px;
+  border-radius:999em;
+}
+.feedback-action, .card-title{
+  width: 100%;
+}
+.modal {
+  z-index: 9999;
+}
+
+#icon-add-friends {
+  cursor: pointer;
+}
+
+a{
+text-decoration:none;
+}
+
+.fb-wrapper {
+  cursor:pointer;
+ 
+}
+.fb-wrapper:hover {
+  transform:scale(1.1);
+}
