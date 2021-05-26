@@ -1,7 +1,7 @@
 # my-user-list
 A web app for tracking registered users/friends
 
-##Features
+## Features
 - listing all users from users api
 - searching users by name
 - sorting users by ID and age
@@ -9,7 +9,7 @@ A web app for tracking registered users/friends
 - add users to your friend list
 - manage your friend list
 
-##How to use
+## How to use
 ### Searching
 type keyword of user name in search bar
 
